@@ -1,0 +1,836 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass extreport
+\begin_preamble
+
+\end_preamble
+\use_default_options true
+\begin_modules
+enumitem
+figs-within-sections
+tabs-within-sections
+eqs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language french
+\language_package default
+\inputencoding utf8
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement tbph
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\branch BiblioInEachChapter
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Maitriser Lyx
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+La plupart des documents scientifiques et/ou technique nécessitant une présentat
+ion soignée sont aujourd'hui réalisés à l'aide de LATEX.
+ Il s'agit d'un véritable langage de programmation permettant la réalisation
+ de tous types de documents.
+ Même s'il n'est pas très difficile à apprendre, l'effort de mémoire est
+ cependant réel, ...et parfois à renouveler quand on ne l'utilise pas régulièrement.
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Les paresseux (et beaucoup d'autres) seront donc soulagés d'apprendre qu'un
+ logiciel gratuit (licence GPL) offre une interface graphique conviviale
+ pour créer tous documents LATEX, même les plus compliqués.
+ Il s'agit de LyX.
+ Il fonctionne sur la plupart des plate-formes UNIX et est inclus dans toutes
+ les distributions LINUX dignes de ce nom 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "2"
+
+\end_inset
+
+.
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ainsi, Lyx nous permet de faire abstraction de tout ce qui est mis en page
+ et permettre ainsi à l'utilisateur de se concentrer sur la rédaction.
+ Ce chapitre une breve description de ses fonctionnalités.
+ 
+\end_layout
+
+\begin_layout Section
+Premiers Pas
+\end_layout
+
+\begin_layout Enumerate
+Commençons en tapant un titre
+\end_layout
+
+\begin_layout Enumerate
+Maintenant, nous allons dire à LyX que c'est un titre.
+ Notez que nous ne lui disons pas de le centrer ou de rendre la police plus
+ grande et plus grasse.
+ LyX s'occupe de tout cela automatiquement.
+ Cliquez simplement sur le menu "Format" (en dessous de "
+\series bold
+Fichier
+\series default
+" et il a par défaut la valeur "
+\series bold
+Standard
+\series default
+"), déroulez ensuite vers le bas et choisissez "
+\series bold
+Section
+\series default
+".
+\end_layout
+
+\begin_layout Paragraph
+Remarque
+\end_layout
+
+\begin_layout Standard
+Sous section représente un sous titre et ainsi de suite.
+\end_layout
+
+\begin_layout Subsection
+Mise en forme
+\end_layout
+
+\begin_layout Itemize
+Pour la mise en forme du texte cliquer sur le boutton 
+\begin_inset Graphics
+	filename Logos/Chap 3/Style.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Pour l'alignement du texte : 
+\begin_inset Graphics
+	filename Logos/Chap 3/Alignement.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Pour la numérotation : 
+\begin_inset Graphics
+	filename Logos/Chap 3/Numérotation.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Visionner
+\end_layout
+
+\begin_layout Itemize
+Pour prévisualiser le fichier en format PDF ->
+\begin_inset Graphics
+	filename Logos/Chap 3/Aperçu.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Pour prévisualiser le fichier en format Doc : 
+\begin_inset Quotes fld
+\end_inset
+
+
+\series bold
+Document-> Visionner [autres formats]-> MS Word
+\series default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Insérer des figures
+\end_layout
+
+\begin_layout Enumerate
+Sélectionnez 
+\series bold
+Insérer->Flottant
+\end_layout
+
+\begin_layout Enumerate
+"
+\series bold
+Figure
+\series default
+" dans le sous-menu
+\end_layout
+
+\begin_layout Enumerate
+un objet flottant va apparaître à l'écran (voir figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "3.2.1"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Logos/Chap 3/1.png
+	scale 30
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Figure sous Lyx
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "3.2.1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Tapez la légende après l'étiquette "
+\series bold
+Figure # :
+\series default
+"
+\end_layout
+
+\begin_layout Enumerate
+Maintenant ajoutez la figure elle-même en plaçant le curseur avant l'étiquette
+ et en cliquant sur "
+\series bold
+Insérer->Graphique...
+\series default
+".
+ La fenêtre de dialogue s'ouvre.
+\end_layout
+
+\begin_layout Enumerate
+Utilisez le sélecteur de fichiers pour trouver votre fichier graphique.
+ LyX accepte plusieurs formats de fichiers graphiques et les convertit en
+ interne automatiquement pour s'adapter à LaTeX ou PDFTeX.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Dans la fenêtre de dialogue, vous pouvez mettre un facteur d'échelle (50%
+ de la largeur de la page), une rotation (0 = aucune) et plein d'autres
+ choses selon vos besoins.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Logos/Chap 3/2.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Personnaliser une image
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "Hello"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+pour redimensionner la figure, ils suffit de cliquer dessus et cocher 
+\begin_inset Quotes fld
+\end_inset
+
+
+\series bold
+Echèlles graphique
+\series default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Etiquette
+\end_layout
+
+\begin_layout Standard
+Supposons maintenant que nous voulions faire référence à cette figure dans
+ notre texte.
+ La méthode barbare consisterait à étiqueter la figure avec "Figure 1" et
+ à mettre "Figure 1" dans le texte.
+ Si par la suite vous ajoutez une autre figure avant celle-ci, vous devez
+ refaire toutes les étiquettes.
+ LyX a un système de références croisées sophistiqué, ce qui fait que vous
+ n'avez pas à faire tout ça:
+\end_layout
+
+\begin_layout Itemize
+Mettez simplement le curseur à la fin de la légende (après le titre de la
+ figure) et cliquez sur "
+\series bold
+Insérer->Étiquette
+\series default
+".
+\end_layout
+
+\begin_layout Itemize
+Tapez un mot-clé (ex: Hello).
+ Une boîte grise apparaîtra .
+ Cela n'apparaitra pas dans la version imprimée.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename Logos/Chap 3/3.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Maintenant cherchez une phrase dans laquelle vous voulez faire référence
+ à la figure et dire quelque chose comme "
+\shape italic
+voir Figure
+\shape default
+ ".
+ Notez l'espace.
+ Cliquez sur "
+\series bold
+Insérer->Insérer référence croisée...
+\series default
+".
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Hello"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Choisissez votre étiquette dans la liste et le format "<référence>" pour
+ que LyX affiche le numéro de la figure.
+ Une nouvelle boîte grise apparaît affichant la référence.
+ 
+\end_layout
+
+\begin_layout Section
+Insérer des tableaux
+\end_layout
+
+\begin_layout Enumerate
+Sélectionnez 
+\series bold
+Insérer->Flottant->Tableau
+\end_layout
+
+\begin_layout Enumerate
+Tapez la légende après l'étiquette "
+\series bold
+tableau # :
+\series default
+"
+\end_layout
+
+\begin_layout Enumerate
+Maintenant ajoutez le tableau: "
+\series bold
+Insérer->Tableau...
+\series default
+"
+\end_layout
+
+\begin_layout Enumerate
+Choisissez le nombre de lignes et de colonnes que vous voulez.
+ Une petite matrice apparaît dans le document.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+N°
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Etudinat
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Note
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nom
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Prénom
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+01
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Amine
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Amine
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+02
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mohamed
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mohamed
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Exemple de tableau
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Une fois dans une cellule, la boite à outils du tableau après en bas pour:
+ insertion / suppression de ligne / colonnes, fusionner des cellules ...etc.
+\end_layout
+
+\begin_layout Section
+Gestion des bibliographies
+\end_layout
+
+\begin_layout Standard
+Un autre pont fort de LyX, c'est la gestion des bibliographies.
+ Avec le format BibTeX de LaTeX, vous pouvez faire des citations directement
+ à partir d'une base de données bibliographique.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Dans le fichier 
+\begin_inset Quotes fld
+\end_inset
+
+
+\series bold
+bibliographie.bib
+\series default
+
+\begin_inset Quotes frd
+\end_inset
+
+ insérer les références en format bibtex
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+https://fr.wikipedia.org/wiki/BibTeX
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Placez-vous, dans le chapitre, à l'endroit où vous voulez placer la référence
+ et cliquerez "
+\series bold
+Insérer->Citation
+\series default
+", qui va ouvrir la fenêtre de dialogue "
+\series bold
+Citation
+\series default
+".
+\end_layout
+
+\begin_layout Section
+Préambule LaTeX
+\end_layout
+
+\begin_layout Standard
+Le préambule sert à indiquer des options, des préférences et des choix pour
+ la compilation, comme personnaliser les marges....etc.
+ Dans ce présent template, seul le préambule du fichier 
+\begin_inset Quotes fld
+\end_inset
+
+index.lyx
+\begin_inset Quotes frd
+\end_inset
+
+.
+ Les options seront appliquées automatiquement aux fichiers intégrés à l'index.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+
+\series bold
+Document->Paramètres->Préambule LaTeX
+\series default
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Conclusion
+\end_layout
+
+\begin_layout Standard
+Bien entendu, le Lyx est bien plus riche pour le décrire dans un simple
+ chapitre.
+ Je vous invite à l'explorer davantage.
+\end_layout
+
+\end_body
+\end_document

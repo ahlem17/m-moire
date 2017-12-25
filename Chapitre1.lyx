@@ -1,0 +1,1652 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass extreport
+\begin_preamble
+
+\end_preamble
+\use_default_options true
+\begin_modules
+enumitem
+figs-within-sections
+tabs-within-sections
+eqs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language french
+\language_package default
+\inputencoding utf8
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement tbph
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\branch BiblioInEachChapter
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+\noindent
+Les outils de développement des sites web
+\end_layout
+
+\begin_layout Section
+\noindent
+Introduction
+\end_layout
+
+\begin_layout Standard
+On appel web nom anglais signifiant « trole » contraction de world wide
+ web " www ", le principe de web repose sur l’utilisation des hyperliens
+ pour naviguer entre des documents appelés page web, La page web est l'unité
+ de consultation du WWW.
+ Elle est conçue pour être consultée à l'aide d'un navigateur web.
+ Elle a une adresse web.
+ Techniquement, une page web est souvent constituée d'un document en fichier
+ texte écrit dans un langage description HTML " HyperText Markup Language
+ " et d'images CSS " Cascading Style Sheets ".
+ Cependant, tout type de ressources ou d'assemblage de ressources, textuelles,
+ visuelles, sonores, logicielles, peuvent constituer une page web, le web
+ prend tout son sens avec le protocole http permet de lier des documents
+ hébergés par des ordinateurs distants appelés serveur web par opposition
+ au client qui représente le navigateur, la page web ou le site web possède
+ deux types défirent : site web statique et site web dynamique, par opposition
+ au site web statique scripts coté client, site web dynamique scripts coté
+ serveur c’est-à-dire l’administrateur du site et le visiteur utilise le
+ même outil navigateur web mais les pages avec lesquelles ils travaillent
+ ne sont pas les même
+\begin_inset CommandInset citation
+LatexCommand cite
+key "1"
+
+\end_inset
+
+, ces pages web sont créées dynamiquement par des langages tel que : 
+\end_layout
+
+\begin_layout Description
+JavaScript est un langage de programmation crée en1995 au but de créer des
+ pages interactives et vivantes grâce au script client side exécuter à coté
+ client, on peut aussi utiliser JS coté serveur via par exemple node-JS,
+ JS orienté objet permettre de manipuler dynamiquement du html et du CSS.
+ 
+\end_layout
+
+\begin_layout Description
+PHP Est un langage de programmation crée en 1994 permet de rendre un site
+ web dynamique en utilisant des bases de données, il est inconnu par la
+ machine c’est-à-dire la machine ne peut pas lire ce code par contre il
+ s’exécute à coté de serveur et envoie au client que le résultat HTML.
+\end_layout
+
+\begin_layout Description
+MySQL est un langage qui dérive directement de SQL qui est un langage de
+ requête vers la base de données.
+ 
+\end_layout
+
+\begin_layout Section
+Editeur de texte
+\end_layout
+
+\begin_layout Subsection
+Sublime text
+\end_layout
+
+\begin_layout Standard
+Sublime Text est un éditeur de texte générique codé en C++ et Python, disponible
+ sur Windows, Mac et Linux, il génere plusieur type de langages peermit
+ d'eux C#, HTML, Css, Javascript, php,python...
+ Il facilite l'ecréture des syntaxe du langage et plus organiser dont la
+ coloration syntaxique personnalisable et l’auto complétion.
+\end_layout
+
+\begin_layout Section
+Langages
+\end_layout
+
+\begin_layout Subsection
+Javascript
+\end_layout
+
+\begin_layout Standard
+JavaScript n'est pas le seul langage de programmation en fait, il y a littéralem
+ent des certaines des langages de programmation ; mais il existe plusieurs
+ raisons d'apprendre JavaScript.
+ Premièrement c'est plus facile plus amusant à l'apprendre par rapport à
+ plusieurs autres langages de programmation.
+ Mais peut-être c'est le meilleur d'eux.
+ En outre pour écrire et exécuter javascript tous ce qu'on a besoin c'est
+ un éditeur de texte simple comme : bloc note, note pad++ ou sublime text
+ etc… Et un navigateur web comme Internet Explorer, Mozilla Firefox, Google
+ chrome...
+ tous les navigateur web convient avec interrupteur javascript et c’est
+ un point de plus pour ce langage
+\begin_inset CommandInset citation
+LatexCommand cite
+key "2"
+
+\end_inset
+
+, La syntaxe de ce langage est la même que plusieurs langages telque C, PHP…
+ D’où pour écrire JS il existe trois méthodes :
+\end_layout
+
+\begin_layout Standard
+1
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+er
+\end_layout
+
+\end_inset
+
+ on écrit le code de JS dans le head de HTML : 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<html> <head> <script type="application/JavaScript">  // instructions </script>
+ </head><body></body></html> 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+ème 
+\end_layout
+
+\end_inset
+
+on écrit le code de js dans le body de HTML : 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<html><head></head> <body> <script type="application/javascript">  // instructio
+ns </script> </body></html>
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+3
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+ème
+\end_layout
+
+\end_inset
+
+on écrit JS dans un fichier extérieur « .js » et on le relie avec HTML en
+ écrivant cette balise dans le head de HTML : 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+<script src = ’’Nom_De_Fichier_JS.js’’></script>
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Syntaxes du JavaScript 
+\end_layout
+
+\begin_layout Description
+Condition
+\end_layout
+
+\begin_layout Itemize
+If…Elseif
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/L2/Pictures/img/js/condition.png
+	scale 80
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Boucles 
+\end_layout
+
+\begin_layout Itemize
+While et Do…While 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/L2/Pictures/img/js/do while.PNG
+	scale 75
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename C:/Users/L2/Pictures/img/js/while.PNG
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dans cet exemple i incrémente 9 fois et a s’affiche de 2 puis 3 puis 4 jusqu’à
+ 10 
+\end_layout
+
+\begin_layout Itemize
+Boucle for 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/L2/Pictures/img/js/boucle.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Array 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/L2/Pictures/img/js/array.png
+	scale 80
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dans cet exemple i incrémente 5 fois en affichant tous les éléments de la
+ liste array et pour modifier un élément il suffit de changer sa valeur
+ comme dans cet exemple : Array [1] =6 ; // là l’élément 1 au lieu de sa
+ valeur « 2 » il reçoit « 6 » 
+\end_layout
+
+\begin_layout Description
+Object
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/L2/Pictures/img/js/objet.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Methodes
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/L2/Pictures/img/js/méthode.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Typeof : sert à définir le type de la variable.
+\end_layout
+
+\begin_layout Standard
+Date : sert aux dates en générale et tous se qui il a relation avec le temps.
+\end_layout
+
+\begin_layout Standard
+toUpperCase : sert à rendre toutes les lettres en majuscule.
+ 
+\end_layout
+
+\begin_layout Description
+Fonction 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/L2/Pictures/img/js/fonction.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+PHP
+\end_layout
+
+\begin_layout Standard
+Le PHP : HyperText Preprocessor est un langage de programmation.
+ Il y en a beaucoup d'autres, comme le C, le Java… mais on peut dire du
+ PHP que c'est un langage de programmation orienté pour le Web, ou encore
+ pour les sites internet.
+ Ce langage est script coté serveur, ainsi qu’il est embarqué dans les pages
+ HTML il est supporté pratiquement tous les standards du web.
+ Ses syntaxes sont héritées du C et du Perl, le PHP est extensible (nombreuses
+ bibliothèques/modules) pour : le calcul mathématique
+\begin_inset CommandInset citation
+LatexCommand cite
+key "3"
+
+\end_inset
+
+, la création dynamique d’images, l’accès à la plupart des SGBD … PHP peut
+ fonctionner selon 3 modes : 
+\end_layout
+
+\begin_layout Enumerate
+L’utilisation la plus courante en tant que module du serveur web Apache
+ pour générer des pages web dynamiques ou des logiciels qui facilite plus
+ utilisation en contenant le serveur Apache et PHP et même MySQL comme Wamp,
+ Xmap...
+\end_layout
+
+\begin_layout Enumerate
+Comme langage de programmation en ligne de commande (PHP-CLI) : vous pouvez
+ écrire des scripts PHP et les exécuter en ligne de commande, sans l'aide
+ du serveur web et d'un navigateur.
+\end_layout
+
+\begin_layout Enumerate
+Écrire des applications clientes graphiques avec l'extension PHP-GTK (Http://gtk.
+php.net).
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "4"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pour commencer à programmer en PHP l’extension du fichier doit être " .php "
+ éditer par un éditeur texte dans le dossier d’exécution du logiciel qui
+ génère les page web dynamique.
+\end_layout
+
+\begin_layout Subsubsection
+Syntaxes du PHP 
+\end_layout
+
+\begin_layout Description
+Condition
+\end_layout
+
+\begin_layout Itemize
+If…Elseif 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/L2/Pictures/img/php/condition.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Switch 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/L2/Pictures/img/php/switch.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dans cet exemple si x prend la valeur 0 il va donc exécuter l’instruction
+ de case 0 si prend 1 il va exécuter l’instruction de case1 ainsi de suite
+ sinon il exécuter l’instruction de default.
+ 
+\end_layout
+
+\begin_layout Description
+Boucles 
+\end_layout
+
+\begin_layout Itemize
+While et Do…While 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/L2/Pictures/img/php/do while.PNG
+	scale 80
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename C:/Users/L2/Pictures/img/php/while.PNG
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Leur principe est exactement comme la boucle for l’indice i s’incrémente
+ 10 fois et à chaque fois on affiche sa valeur on obtient donc même résultat
+ que la boucle for.
+ 
+\end_layout
+
+\begin_layout Itemize
+Boucle for 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/L2/Pictures/img/php/boucle.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dans cet exemple i incrémente 10 fois et à chaque fois on affiche sa valeur.
+\end_layout
+
+\begin_layout Description
+Array 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/L2/Pictures/img/php/array.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Fonction 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/L2/Pictures/img/php/fonction.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dans cet exemple une fonction qui calcule le volume de sphère.
+ 
+\end_layout
+
+\begin_layout Subsection
+MysQL
+\end_layout
+
+\begin_layout Standard
+L'intérêt de MySQL réside dans le fait qu'il soit un Système de Gestion
+ de Base de Données Relationnelles, pour stocker et sauvegarder des informations
+ dans une base de données c’est comme un armoire ou on stocke tous les informati
+ons, on peut grâce au SGBD non seulement stocker des informations mais plutôt
+ l’interroger et les manipuler (insérer, supprimer et mettre à jour).
+ Il dérive directement de langage SQL qui est un langage de requête vers
+ la base de données.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "5,3"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Syntaxes du SQL 
+\end_layout
+
+\begin_layout Itemize
+Pour créer une base de données :
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+CREATE DATABASES nom_bdd ;
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Pour accéder à la base de données 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+USE DATABASE nom_bdd ;
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Pour créer une table à la base de données
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+CREATE TABLE nom_table (nom_colonne type_colonne ;) // le type de la colonne
+ dépend de la valeur des colonnes (Int, varchar, date…).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Pour insérer des valeurs au nom de colonne  
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+INSERT INTO nom_table (nom_colonne) VALUES (valeur) ; 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Pour selectioner 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+Select * from nom_table Pour une condition Select * from nom_table where
+ condition
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Pour ajouter des contrainte clé primaire et étrangère
+\end_layout
+
+\begin_layout Description
+Clé primaire : 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+ALTER TABLE nom_table ADD PK_nom_table PRIMARY KEY (nom_colonne);
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Clé étrangère : 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+ALTER TABLE nom_table ADD PK_nom_table FOREIGN KEY (nom_colonne) REFERENCE
+ nom_table1 (nom_colonne) ;
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Ou bien dans la création de la table on déclare directement 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+CREATE TABLE nom_table (nom_colonne1 type_colonne1 UNIQUE, nom_colonne2
+ type_colonne2 REFERENCE nom_table2 (nom_colonne2) ;) // unique=> clé primaire
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Il y’a aussi beaucoup d’autre fonction en SQL qu’elle sont très utile comme 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+AVG () : calculer la moyenne sur un ensemble d’enregistrement
+\end_layout
+
+\begin_layout Plain Layout
+
+COUNT () : compter nombre de colonne dans la table 
+\end_layout
+
+\begin_layout Plain Layout
+
+MAX () : préciser le nombre max des valeur d’une colonne 
+\end_layout
+
+\begin_layout Plain Layout
+
+MIN () : préciser le nombre min des valeurs d’une colonne 
+\end_layout
+
+\begin_layout Plain Layout
+
+SUM () : compter la somme des valeurs d’une colonne 
+\end_layout
+
+\begin_layout Plain Layout
+
+UPDATE () : mettre à jour des tables 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+PHP + MySQL 
+\end_layout
+
+\begin_layout Standard
+Voici quelque instruction de php pour se connecter à la base de données
+ MySQL il y’a pas mal d’extension mais la plus utiliser c’est celle-ci " PDO ".
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "4"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Pour se connecter au MySQL 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$dsn='mysql:dbname=nom_bd;host=localhost' ; // création d’une variable d’adresse
+ local 
+\end_layout
+
+\begin_layout Plain Layout
+
+$user='root';// création variable d'utilisateur $password='' ; //création
+ variable de mot de passe si y’a pas laissant le champ vide 
+\end_layout
+
+\begin_layout Plain Layout
+
+Try { $dbh=new PDO ($dsn, $user, $password) ; //connexion vers la base de
+ données } 
+\end_layout
+
+\begin_layout Plain Layout
+
+catch (PDOException $e) //sinon si y’a pas de connexion affiche message
+ d’errer en citant l’erreur 
+\end_layout
+
+\begin_layout Plain Layout
+
+{echo'connection failled :’.$e->getMessage() ;} 
+\end_layout
+
+\begin_layout Plain Layout
+
+Pour sélectionner de puis la base de données 
+\end_layout
+
+\begin_layout Plain Layout
+
+$dh=$dbh->query (‘SELCT a from nom_table) 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Pour insérer des valeurs dans la base de données
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$prep=$dbh->prepare ('INSERT INTO nom-table (a, b) VALUES (:a, :b)');//
+ création variable d'insertion
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Entrer les valeurs 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+$prep->execute ([':a'=>1, ':b'=>$c]); //$c c’est une variable contient valeur
+ entrer dans un formulaire
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Exemple 
+\end_layout
+
+\begin_layout Itemize
+Code source 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/L2/Pictures/img/Sans titre.png
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Exécutable 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/L2/Pictures/img/Sans titre.png1.png
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Serveurs
+\end_layout
+
+\begin_layout Subsection
+Serveur HTTP Apache 
+\end_layout
+
+\begin_layout Standard
+Apache est un serveur web très populaire et trés utilisable, il s'agit d'une
+ application qui foctionne à la base sous les systemes Unix et meme aussi
+ Windows, son obejectif est de répondre a des requets effectuer par un client
+ comme par exemple (navigateur web) grace au protocole HTTP, non seulement
+ ça mais aussi d'interrupter plusieur langage qui s'éxecute coté serveur
+ comme : php, ruby, perl et python...
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/L2/Downloads/Sans titre.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Wampserver
+\end_layout
+
+\begin_layout Standard
+WampServer est un logiciel libre sa premiere version était créer en 2010
+ et sa derniere version en Séptembre 2017, est un serveur dans le but de
+ facilite plus creation des pages web dynamiques, c'est une plate-forme
+ de développement web marche sous Windows pour objectif de réaliser des
+ pages web dynamiques à l’aide du serveur Apache qui est intégrer dans le
+ wampserver, du langage de scripts PHP et d’une base de données MySQL.
+ Il possède également PHPMyAdmin pour gérer plus facilement vos bases de
+ données.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/L2/Downloads/téléchargé.jpg
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/L2/Downloads/WampServer_Version_2.5.PNG
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Design et annimation
+\end_layout
+
+\begin_layout Standard
+le design et l'annimation joue un grand role dans la création des pages
+ web d'ou il est nécessaire de savoir choisir le bon design pour y'avoir
+ un site web plus vivant et plus dynamique, il existe plusieur logiciel
+ et meme des sites web qui donne la possibilité de créer des designs des
+ images et meme des icons permit eux les plus répondu :
+\end_layout
+
+\begin_layout Subsection
+Adobe photoshop
+\end_layout
+
+\begin_layout Standard
+Adobe photoshop est un logiciel de design et annimation graphique il permet
+ de modifier des images et créer des icones selon le désir, un vaste univers
+ sans limte, créer d'incroyables photos, compositions, illustrations, images
+ 3D, vidéos, etc...
+ Permetre de lancer des projets de création à partir d’une grande variété
+ de modèles Adobe Stock et de paramètres prédéfinis vides.
+ 
+\end_layout
+
+\begin_layout Subsection
+Canva
+\end_layout
+
+\begin_layout Standard
+Canva est une application web de design créer dans le but de manipuler facilemen
+t le disgn des photos, elle offres des modeles standard à modifier ou la
+ possibilité de créer tous un autre nouveau design, elle facilite la manupilatio
+n de la taille les filtres et les effets des images et meme la possibilité
+ de composer et dupliquer les photos, elle contient des millions des images,
+ icones, des formes et des centaines des polices au choix qui sont totalement
+ gratuit.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Users/L2/Downloads/téléchargé (1).jpg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Hébergement
+\end_layout
+
+\begin_layout Standard
+L'hébergment d'un site web c'est localiser le site web sur un serveur pour
+ y avoir une adresse d'accés public ou personnel qui permet au client d'accéder
+ au site web, il éxiste trois méthodes pour héberger un site web :
+\end_layout
+
+\begin_layout Enumerate
+Hébergeur des page perso : Il est totalement gratuit spécifié d'une connexion
+ fiable, et c'est un choix parfait pour les petits budgets mais il a un
+ espace de stockage limité avec peu d'offres et les publicités généralement
+ toujurs présentes exemple : Alice, Wanadoo ect...
+\end_layout
+
+\begin_layout Enumerate
+Hébergeur gratuit : Il est gratuit un de ces caracteres spéciaux est trés
+ agréable pours les petits budget mais parfois il a un espace limité moins
+ sécurisé peut disparatre dans un jour ou l'autre exemple : Lycos...
+\end_layout
+
+\begin_layout Enumerate
+Hébergeur payant : Il est à 100% pyant il offre un espace ilimité sans publiccit
+és avec une conexion trés fiable mais son prix peut etre trés cher exemple
+ : Nuxit...
+\end_layout
+
+\begin_layout Section
+Conclusion
+\end_layout
+
+\begin_layout Standard
+JavaScript langage de programmation est utilisé pour écrire des programmes
+ qui s'exécute dans les page web.
+ JavaScript peut contrôler comment apparait la page web ou mettre une page
+ se répondre quand le visiteur clique dans un bouton ou bouge la souris.
+ Des sites comme Gmail, Facebook et twitter utilise javascript pour facilite
+ l'envoi des emails, poster des commentaires ou bien naviguer dans les sites
+ web.
+ Par exemple quand on est sûr twitter lire tweets de @newtweet et on voit
+ plus des tweets dessus de la page pendant qu’on déplace vers le bas, c'est
+ javascript qui réalise cet action et beaucoup plus.
+ Le PHP par opposition de plusieurs langages il est spécifie de plusieurs
+ qualités d’où le client n’a pas accès au code source puisque celui-ci est
+ interprété avant envoi (! = Javascript), ainsi que le client ne reçoit
+ que le résultat de l’exécution du script, pas seulement ça ! On peut configurer
+ le serveur HTTP pour masquer complètement la qualité dynamique des pages
+ et le plus que ça le code n’est pas alourdi par des commandes destinées
+ et d’un autre coté il est très facile à apprendre et à le manipuler pour
+ cela plusieurs développeurs choisissent php pour développer leur site web
+ il est utilisé par plus de 80% des sites web et qui dit PHP dit MySQL ce
+ couple est très utilisé par les sites Web et proposé par la majorité des
+ hébergeurs Web.
+ Plus de la moitié des sites Web fonctionnent sous Apache, qui est le serveur
+ le plus répandu sur Internet et le plus souvent utilisé conjointement avec
+ PHP et MySQL.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "1,2,3,5"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "bibliographie"
+options "plain"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
